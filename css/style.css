@@ -35,6 +35,14 @@
   margin: auto;
 }
 
+.familyNames {
+  width: 70%;
+  margin-top: 32px!important;
+  margin: auto;
+  font-weight: bolder!important;
+  font-size: 28px!important;
+}
+
 .scroll p {
   font-family: "Satisfy", cursive;
   letter-spacing: 2px;
@@ -618,11 +626,7 @@ body {
   .picturesList {
     width: 60%;
   }
-  .familyNames {
-    width: 70%;
-    margin-top: 32px!important;
-    margin: auto;
-  }
+
   .stickToPageBottom {
     text-align: center;
     justify-content: center;
