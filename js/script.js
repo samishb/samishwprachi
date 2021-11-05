@@ -39,10 +39,22 @@ $("#detailedItineraryBlock").on("click", function () {
 });
 
 $("#howToReachBlock").on("click", function () {
+  window.scrollTo(0,0);
   showHidePages(pages[4]);
 });
 
+$("#picGalleryBlock").on("click", function () {
+  window.scrollTo(0,0);
+  showHidePages(pages[5]);
+});
+
+$("#rsvp").on("click", function () {
+  window.scrollTo(0,0);
+  showHidePages(pages[6]);
+});
+
 $("#rsvpButton").on("click", function () {
+  window.scrollTo(0,0);
   showHidePages(pages[6]);
 });
 
